@@ -1,0 +1,19 @@
+# Ignore Maven local repo
+.m2/
+
+# Ignore build folders
+target/
+bin/
+out/
+
+# Ignore IDE files
+*.iml
+*.class
+.settings/
+.project
+.classpath
+.idea/
+
+# Ignore reports and screenshots
+/reports/
+*.png

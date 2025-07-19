@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [OrangeHRM Suite]">
+  <test thread-count="5" name="Login Tests(failed)">
+    <classes>
+      <class name="com.orangehrm.automation.tests.LoginTests">
+        <methods>
+          <include name="setupExtentReport"/>
+          <include name="testLogin"/>
+          <include name="tearDownExtentReport"/>
+          <include name="tearDownDriver"/>
+          <include name="setupDriver"/>
+        </methods>
+      </class> <!-- com.orangehrm.automation.tests.LoginTests -->
+    </classes>
+  </test> <!-- Login Tests(failed) -->
+  <test thread-count="5" name="Admin Tests(failed)">
+    <classes>
+      <class name="com.orangehrm.automation.tests.AdminTests">
+        <methods>
+          <include name="setupExtentReport"/>
+          <include name="tearDownExtentReport"/>
+          <include name="searchEmployeeByUsername"/>
+          <include name="verifyAdminMenuOptionsCount"/>
+          <include name="searchEmployeeByUserRole"/>
+          <include name="tearDownDriver"/>
+          <include name="searchEmployeeByUserStatus"/>
+          <include name="setupDriver"/>
+        </methods>
+      </class> <!-- com.orangehrm.automation.tests.AdminTests -->
+    </classes>
+  </test> <!-- Admin Tests(failed) -->
+</suite> <!-- Failed suite [OrangeHRM Suite] -->
